@@ -1,0 +1,42 @@
+{
+  "name": "login-form-with-validation-master",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@stripe/stripe-js": "^1.52.0",
+    "async": "^3.2.4",
+    "bootstrap": "^5.2.3",
+    "git": "^0.1.5",
+    "history": "^5.2.0",
+    "react": "^17.0.0",
+    "react-bootstrap": "^2.7.2",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "4.0.3",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^8.1.0",
+    "reactstrap": "^9.0.1",
+    "thai-baht-text": "^1.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
